@@ -1,0 +1,37 @@
+{
+  "name": "react-todomvc-with-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+	"build": "webpack"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "chai": "^3.5.0",
+    "chromedriver": "^2.24.1",
+    "css-loader": "^0.25.0",
+    "expect": "^1.20.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "mocha": "^3.1.2",
+    "selenium-webdriver": "^3.0.0-beta-3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "express": "^4.14.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "todomvc-app-css": "^2.0.6"
+  }
+}
